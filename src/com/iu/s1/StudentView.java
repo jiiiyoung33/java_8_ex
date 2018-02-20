@@ -17,9 +17,11 @@ public class StudentView {
 	for(int i=0;i<students.length;i++) {
 		System.out.println("이름:"+students[i].name);
 		System.out.println("번호:"+students[i].num);
-		System.out.println("번호:"+students[i].kor);
-		System.out.println("번호:"+students[i].eng);
-		System.out.println("번호:"+students[i].math);
+		System.out.println("국어:"+students[i].kor);
+		System.out.println("영어:"+students[i].eng);
+		System.out.println("수학:"+students[i].math);
+		System.out.println("total:"+students[i].total);
+		System.out.println("avg:"+students[i].avg);
 		
 	
 	

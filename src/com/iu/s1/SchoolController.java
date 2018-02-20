@@ -22,6 +22,8 @@ public class SchoolController {
 		Scanner sc=new Scanner(System.in);
 		StudentService ss = new StudentService(); //맨위에다가 메서드 선언해줘야함!!!!
 		StudentView sv = new StudentView();
+		
+		
 		Student [] students=null;
 		
 
@@ -51,8 +53,7 @@ public class SchoolController {
 		case 2:
 			
 			
-			System.out.println("성적을 입력하세요.");
-			int num=sc.nextInt();
+			ss.addPoint(students);
 								
 			break;
 			
